@@ -1,60 +1,108 @@
-# CodeLeap Network
+# 🌐 CodeLeap Network
 
-A clean and professional social networking interface built for the CodeLeap coding test.
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)
+![React Query](https://img.shields.io/badge/-React%20Query-FF4154?style=for-the-badge&logo=react-query&logoColor=white)
+![Axios](https://img.shields.io/badge/axios-671ddf?style=for-the-badge&logo=axios&logoColor=white)
+![Framer Motion](https://img.shields.io/badge/Framer--Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white)
 
-## Tech Stack
+A clean, high-performance social networking interface developed for the CodeLeap Fullstack Assessment. This project demonstrates modern React best practices, efficient state management, and a premium user experience.
 
-- **Frontend**: React (Vite)
-- **State Management**: React Query (TanStack Query)
-- **API Client**: Axios
-- **Styling**: Vanilla CSS (Modern & Responsive)
-- **Animations**: Framer Motion
-- **Icons**: Lucide React
-- **Date Handling**: date-fns
+---
 
-## Features
+## 📸 Project Demonstration
 
-- [x] **User Login**: Simple username-based entry (stored in LocalStorage).
-- [x] **Post Creation**: Form to share thoughts with title and content.
-- [x] **Infinite Scroll**: Automated pagination for seamless browsing.
-- [x] **CRUD Operations**: Fully functional Create, Read, Update, and Delete actions.
-- [x] **Responsive Design**: Optimized for mobile and desktop views.
-- [x] **Smooth Animations**: Glassmorphism effects and micro-interactions.
+### 🎞️ Video Demo
+<!-- Placeholder for Video: Replace with your video link or local file -->
+> [!TIP]
+> **[Click here to watch the demonstration video](path/to/your/video.mp4)** 
+> *(Replace this with your actual video or GIF)*
 
-## API Integration
+### 🖼️ Screenshots
+| Login Screen | Main Feed |
+| :---: | :---: |
+| ![Login Placeholder](https://via.placeholder.com/400x250.png?text=Login+Screen) | ![Feed Placeholder](https://via.placeholder.com/400x250.png?text=Main+Feed) |
 
-The application integrates with the CodeLeap Careers API:
-`https://dev.codeleap.co.uk/careers/`
+| Edit Modal | Delete Confirmation |
+| :---: | :---: |
+| ![Edit Placeholder](https://via.placeholder.com/400x250.png?text=Edit+Post) | ![Delete Placeholder](https://via.placeholder.com/400x250.png?text=Delete+Post) |
 
-**Important**: All requests are automatically configured to include a trailing slash `/` via Axios interceptors.
+---
 
-## Setup Instructions
+## ✨ Key Features
 
-1. **Clone the repository**:
+- 👤 **Seamless Authentication**: Simple username-based session management using LocalStorage.
+- 📜 **Infinite Scrolling**: Automated pagination using React Query's `useInfiniteQuery` for smooth browsing.
+- 🛠️ **Full CRUD Operations**: Optimized Create, Read, Update, and Delete flows with instant UI updates.
+- ⚡ **Optimized State Management**: Efficient caching and automatic re-fetching via TanStack Query.
+- 📱 **Responsive & Fluid UI**: Fully responsive design with glassmorphism effects and smooth transitions.
+- 🎨 **Premium Animations**: Micro-interactions and entry animations powered by Framer Motion.
+
+---
+
+## 🛠️ Technology Stack
+
+| Category | Technology |
+| :--- | :--- |
+| **Core** | React 18 (Functional Components & Hooks) |
+| **Build Tool** | Vite |
+| **Data Fetching** | Axios + TanStack Query (React Query) |
+| **Styling** | Vanilla CSS (Modern Design Tokens) |
+| **Icons** | Lucide React |
+| **Date Utils** | date-fns |
+| **Animations** | Framer Motion |
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Node.js (v16.x or higher)
+- npm or yarn
+
+### Installation & Setup
+
+1. **Clone the repository**
    ```bash
    git clone <repository-url>
    cd codeleap-fullstack-test
    ```
 
-2. **Install dependencies**:
+2. **Install dependencies**
    ```bash
    npm install
    ```
 
-3. **Run the development server**:
+3. **Launch development server**
    ```bash
    npm run dev
    ```
 
-4. **Build for production**:
+4. **Production Build**
    ```bash
    npm run build
    ```
 
-## Deployment
+---
 
-The project is ready to be deployed on **Vercel**. Simply connect the repository to Vercel, and it will automatically detect the Vite configuration.
+## 📡 API Integration
+
+The application communicates with the **CodeLeap Careers API**:
+`https://dev.codeleap.co.uk/careers/`
+
+> [!IMPORTANT]
+> **Trailing Slash Requirement**: The API strictly requires a trailing slash (`/`) on all endpoints. This project handles this automatically via an **Axios Interceptor** implemented in `src/services/api.js`.
 
 ---
 
-Developed as part of the CodeLeap Fullstack Test.
+## 🌍 Deployment
+
+This project is optimized for deployment on **Vercel** or **Netlify**.
+
+1. Connect your repository.
+2. The platform will automatically detect the Vite config.
+3. Deploy!
+
+---
+
+**Developed with ❤️ by Adriel Luniere**
