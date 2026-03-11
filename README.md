@@ -12,11 +12,9 @@ A clean, high-performance social networking interface developed for the CodeLeap
 
 ## 📸 Project Demonstration
 
-### 🎞️ Video Demo
-<!-- Placeholder for Video: Replace with your video link or local file -->
-> [!TIP]
-> **[Click here to watch the demonstration video](./src/movie/Codeleap.mp4)** 
-
+<div align="center">
+  <video src="./src/movie/Codeleap.mp4" width="100%" controls></video>
+</div>
 
 ### 🖼️ Screenshots
 | Login Screen | Main Feed |
