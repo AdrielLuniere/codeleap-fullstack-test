@@ -10,6 +10,22 @@ A clean, high-performance social networking interface developed for the CodeLeap
 
 ---
 
+## 🔗 Live Demo
+🚀 **[Access the application here](https://codeleap-fullstack-test.netlify.app/)**
+
+---
+
+## 📸 Project Demonstration
+
+### 🎞️ Video Demo
+<div align="center">
+  <video src="src/movie/Codeleap.mp4" poster="src/img/login.png" width="100%" controls>
+    Seu navegador não suporta a tag de vídeo. 
+    <a href="src/movie/Codeleap.mp4">Clique aqui para ver o vídeo direto.</a>
+  </video>
+  <p align="center"><i>Nota: O player de vídeo pode não renderizar na visualização (Preview) do VS Code, mas aparecerá normalmente quando você subir para o GitHub ou abrir no navegador.</i></p>
+</div>
+
 ### 🖼️ Screenshots
 | Login Screen | Main Feed |
 | :---: | :---: |
