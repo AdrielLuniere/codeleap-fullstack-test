@@ -15,17 +15,17 @@ A clean, high-performance social networking interface developed for the CodeLeap
 ### 🎞️ Video Demo
 <!-- Placeholder for Video: Replace with your video link or local file -->
 > [!TIP]
-> **[Click here to watch the demonstration video](path/to/your/video.mp4)** 
-> *(Replace this with your actual video or GIF)*
+> **[Click here to watch the demonstration video](./src/movie/Codeleap.mp4)** 
+
 
 ### 🖼️ Screenshots
 | Login Screen | Main Feed |
 | :---: | :---: |
-| ![Login Placeholder](https://via.placeholder.com/400x250.png?text=Login+Screen) | ![Feed Placeholder](https://via.placeholder.com/400x250.png?text=Main+Feed) |
+| ![Login Placeholder](./src/img/login.png) | ![Feed Placeholder](./src/img/feed.png) |
 
 | Edit Modal | Delete Confirmation |
 | :---: | :---: |
-| ![Edit Placeholder](https://via.placeholder.com/400x250.png?text=Edit+Post) | ![Delete Placeholder](https://via.placeholder.com/400x250.png?text=Delete+Post) |
+| ![Edit Placeholder](./src/img/commit.png) | ![Delete Placeholder](./src/img/delet.png) |
 
 ---
 
